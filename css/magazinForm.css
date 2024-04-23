@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    height: 100%;
+
+}
+
+main {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.formMagazin {
+    width: 400px;
+    height: 487px;
+    background-color: #D9D9D9;
+    border-radius: 10px;
+    margin-top: 79px;
+    padding: 14px;
+}
+
+.containerForm {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.allInput {
+    height: 300px;
+    display: flex;
+    width: 80%;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+
+/* youssef have added some lines in here */
+input,
+select {
+    width: 20em;
+    height: 30px;
+    /* margin-top: 10px; */
+    border-radius: 25px;
+    border: none;
+    padding-inline: 10px;
+}
+
+select#Ville,
+select#quartier {
+    width: 320px !important;
+}
+
+select#Ville {
+    position: absolute !important;
+    margin-top: -12px !important;
+}
+
+div#ville {
+    margin-top: -15px;
+}
+
+.addButton {
+    width: 131px;
+    height: 37px;
+    border: none;
+    background-color: blue;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    letter-spacing: 1px;
+    padding: 3px;
+    border-radius: 50px;
+}
+
+.addButton:hover {
+    background-color: #1E90FF;
+}
+
+
+/* after this line youssef have added some changes */
+label {
+    display: block;
+}
+
+label.spaceNom,
+label.spaceQuartier,
+label.spaceDate {
+    margin-bottom: 10px !important;
+}
+
+label.spaceQuartier {
+    margin-top: 21px !important;
+
+}
+
+label.spaceVille {
+    margin-top: 17px !important;
+
+}
